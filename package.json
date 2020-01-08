@@ -11,7 +11,7 @@
   "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
+    "url": "https://github.com/agneym/cra-template-netlify-fns.git",
     "directory": "packages/cra-template"
   },
   "license": "MIT",
@@ -19,7 +19,7 @@
     "node": ">=8"
   },
   "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
+    "url": "https://github.com/agneym/cra-template-netlify-fns/issues"
   },
   "files": [
     "template",
