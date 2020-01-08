@@ -61,7 +61,9 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+During deployment, this project is configured, inside netlify.toml to run the build command: yarn build.
+
+yarn build corresponds to the npm script build, which uses npm-run-all (aka run-p) to concurrently run "build:app" (aka react-scripts build) and build:lambda (aka netlify-lambda build functions/).
 
 ### `npm run build` fails to minify
 
